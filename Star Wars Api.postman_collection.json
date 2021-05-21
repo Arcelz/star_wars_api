@@ -1,0 +1,64 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Star Wars Api",
+		"_postman_id": "9fab97e9-a596-b3cc-8f43-dec0cd66739f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Planet",
+			"request": {
+				"url": "localhost:8080/planet",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Tatooine\",\n\t\"climate\":\"Teste\",\n\t\"terrain\":\"Teste\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Planets",
+			"request": {
+				"url": "localhost:8080/planets",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Para buscar outra pagina basta adicionar o parametro 'page' na consulta, para buscar por nome para usar o parametro 'name' "
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Planet",
+			"request": {
+				"url": "localhost:8080/planet/60a6f9ff19d95a6b1a84c628",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Planet By ID",
+			"request": {
+				"url": "localhost:8080/planet/60a6f9ff19d95a6b1a84c628",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
