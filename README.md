@@ -1,5 +1,9 @@
 # **STAR WARS API**
 
+##### Iniciar Projeto
+
+Basta clonar o projeto e digitar `go get .`
+
 ##### Rotas disponíveis
 
 ````
