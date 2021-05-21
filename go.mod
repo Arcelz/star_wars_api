@@ -1,4 +1,4 @@
-module github.com/Arcelz/start_wars_api
+module github.com/Arcelz/star_wars_api
 
 go 1.16
 

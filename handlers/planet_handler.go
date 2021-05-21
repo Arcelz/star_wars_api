@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/Arcelz/start_wars_api/models"
-	"github.com/Arcelz/start_wars_api/services"
+	"github.com/Arcelz/star_wars_api/models"
+	"github.com/Arcelz/star_wars_api/services"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"

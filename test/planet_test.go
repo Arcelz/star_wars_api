@@ -2,9 +2,9 @@ package test
 
 import (
 	"context"
-	"github.com/Arcelz/start_wars_api/database"
-	"github.com/Arcelz/start_wars_api/models"
-	"github.com/Arcelz/start_wars_api/services"
+	"github.com/Arcelz/star_wars_api/database"
+	"github.com/Arcelz/star_wars_api/models"
+	"github.com/Arcelz/star_wars_api/services"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

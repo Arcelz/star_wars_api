@@ -3,8 +3,8 @@ package services
 import (
 	"context"
 	"errors"
-	"github.com/Arcelz/start_wars_api/database"
-	"github.com/Arcelz/start_wars_api/models"
+	"github.com/Arcelz/star_wars_api/database"
+	"github.com/Arcelz/star_wars_api/models"
 	"github.com/Arcelz/swapi"
 	. "github.com/gobeam/mongo-go-pagination"
 	"go.mongodb.org/mongo-driver/bson"

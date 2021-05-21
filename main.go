@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Arcelz/start_wars_api/handlers"
+	"github.com/Arcelz/star_wars_api/handlers"
 	"github.com/gin-gonic/gin"
 )
 
