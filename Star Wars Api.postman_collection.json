@@ -42,7 +42,7 @@
 			"name": "Delete Planet",
 			"request": {
 				"url": "localhost:8080/planet/60a6f9ff19d95a6b1a84c628",
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
 				"body": {},
 				"description": ""
